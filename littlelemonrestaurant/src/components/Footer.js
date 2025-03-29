@@ -6,12 +6,12 @@ function Footer () {
             <div className='footer-content'>
                 <p>&copy; 2023 Little Lemon. All rights reserved.</p>
                 <ul className='footer-links'>
-                    <li className='nav-item'><a href="#home">Home</a></li>
-                    <li className='nav-item'><a href="#about">About</a></li>
-                    <li className='nav-item'><a href="#menu">Menu</a></li>
-                    <li className='nav-item'><a href="#reservations">Reservations</a></li>
-                    <li className='nav-item'><a href="#order-online">Order Online</a></li>
-                    <li className='nav-item'><a href="#login">Login</a></li>
+                    <li className='nav-item'><a href="/Home">Home</a></li>
+                    <li className='nav-item'><a href="/About">About</a></li>
+                    <li className='nav-item'><a href="/Menu">Menu</a></li>
+                    <li className='nav-item'><a href="/Reservations">Reservations</a></li>
+                    <li className='nav-item'><a href="/OrderOnline">Order Online</a></li>
+                    <li className='nav-item'><a href="/Login">Login</a></li>
                 </ul>
                 <ul className='footer-links'>
                     <li className='nav-item'><a href="#terms">Terms of Service</a></li>
