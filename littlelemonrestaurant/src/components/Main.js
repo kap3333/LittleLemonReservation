@@ -3,11 +3,11 @@ import { Navigate, Route, Routes, Switch, useNavigate } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Menu from './Menu';
-import Reservations from './Reservations';
 import OrderOnline from './OrderOnline';
 import Login from './Login';
 import BookingPage from './BookingPage';
 import ConfirmedBooking from './ConfirmedBooking'; // Import the ConfirmedBooking component
+import '../App.css';
 
 //Reducer function to manage state for available times
 export const timesReducer = (state, action) => {

@@ -10,6 +10,7 @@ import Reservations from './components/BookingPage';
 //import OrderOnline from './components/OrderOnline';
 //import Login from './components/Login';
 import ConfirmedBooking from './components/ConfirmedBooking';
+import './App.css'; // Import the CSS file for styling
 
 function App() {
   return (
