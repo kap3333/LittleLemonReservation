@@ -6,9 +6,10 @@ import Footer from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 //import Menu from './components/Menu';
-//import Reservations from './components/Reservations';
+import Reservations from './components/BookingPage';
 //import OrderOnline from './components/OrderOnline';
 //import Login from './components/Login';
+import ConfirmedBooking from './components/ConfirmedBooking';
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
+        <Route path='/Reservations' element={<Reservations />} />
+        <Route path='/ConfirmedBooking' element={<ConfirmedBooking />} />
         {/*}
         <Route path='/Menu' element={<Menu />} />
-        <Route path='/Reservations' element={<Reservations />} />
         <Route path='/OrderOnline' element={<OrderOnline />} />
         <Route path='/Login' element={<Login />} />
         */}

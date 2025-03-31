@@ -49,6 +49,3 @@ function Nav() {
     );
 }
 export default Nav;
-// This is a simple navigation component for a restaurant website.
-// It contains links to different sections of the website.
-// The links are organized in an unordered list.
